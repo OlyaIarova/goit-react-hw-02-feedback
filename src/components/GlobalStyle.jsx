@@ -23,12 +23,13 @@ export const GlobalStyle = createGlobalStyle`
     border: none;
   }
 
-  h1, h2, h3, ul, ol, p {
-    margin: 0;
-    padding: 0;
-  }
+p {
+  margin: 0;
+}
 
-  li {
-    list-style: none;
-  }
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 `;
